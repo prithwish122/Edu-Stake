@@ -1,0 +1,55 @@
+/* Enhanced Styling for Withdraw Form */
+
+.withdraw-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 36px;
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.withdraw-form label {
+  opacity: 0.9; /* Slightly less opaque for better readability */
+  font-size: 14px; /* Increased font size for better readability */
+  font-weight: 500; /* Slightly bolder for emphasis */
+  margin-bottom: 12px; /* Reduced margin for a more compact layout */
+  color: #374151; /* Darker text color for better contrast */
+}
+
+.withdraw-form input {
+  border-style: none;
+  background-color: #f9fafb; /* Light background for clarity */
+  padding: 16px; /* Adjusted padding for better spacing */
+  width: 100%;
+  border-radius: 8px; /* Slightly rounded corners for input */
+  border: 1px solid #d1d5db; /* Light border color for clarity */
+  opacity: 0.9; /* Increased opacity for better visibility */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.withdraw-form input:hover {
+  opacity: 1; /* Full opacity on hover */
+  border-color: #a1a1a1; /* Darker border color on hover */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Light shadow on hover */
+}
+
+.withdraw-form Button {
+  width: 100%;
+  padding: 14px; /* Consistent padding */
+  margin-top: 12px;
+  font-size: 14px; /* Increased font size for readability */
+  color: #ffffff; /* White text color */
+  background-color: #6d28d9; /* Primary color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition effect */
+}
+
+.withdraw-form Button:hover {
+  background-color: #4c1d95; /* Darker shade on hover */
+  transform: scale(1.02); /* Slight scaling effect on hover */
+}

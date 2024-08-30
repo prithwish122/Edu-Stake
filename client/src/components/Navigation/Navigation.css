@@ -1,0 +1,54 @@
+/* Enhanced Navbar Styling */
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 20px 36px; /* Adjusted padding for better spacing */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937; /* Dark background for a modern look */
+  border-bottom: 1px solid #374151; /* Darker border for better separation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: fixed; /* Ensure navbar stays fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* High z-index to keep it above other content */
+}
+
+.navbar-btns, .navbar-acc {
+  font-size: 14px; /* Increased font size for readability */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-btns {
+  color: #f3f4f6; /* Light text color */
+}
+
+.navbar-acc {
+  color: #e5e7eb; /* Slightly different light text color for contrast */
+}
+
+/* Connected Account Styling */
+.connected-ac {
+  background-color: #2d3748; /* Dark background for contrast */
+  color: #f9fafb; /* Light text color */
+  padding: 8px 12px; /* Adjusted padding for better spacing */
+  border-radius: 8px;
+  font-size: 14px; /* Slightly larger font size for consistency */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+}
+
+/* Connected Network Styling */
+.network {
+  background-color: #2d3748; /* Dark background for consistency */
+  color: #f9fafb; /* Light text color */
+  padding: 8px 12px; /* Adjusted padding for better spacing */
+  border-radius: 8px;
+  font-size: 14px; /* Consistent font size */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+}

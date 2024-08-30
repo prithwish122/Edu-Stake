@@ -1,0 +1,48 @@
+/* Enhanced styling for .staked-amount, .reward-rate, .earned-reward */
+
+.staked-amount {
+  width: 500px;
+  background-color: #f9f9f9; /* Light gray background for a softer look */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 28px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.reward-rate {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 28px;
+  background-color: #ffffff; /* White background */
+  border-bottom: 1px solid #e5e7eb; /* Light border for separation */
+}
+
+.earned-reward {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 28px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #f3f4f6; /* Slightly darker gray background */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Enhanced styling for .top-wrapper */
+
+.top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  border-radius: 24px;
+  padding: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+}

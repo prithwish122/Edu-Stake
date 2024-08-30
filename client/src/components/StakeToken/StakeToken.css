@@ -1,0 +1,111 @@
+/* Enhanced Styling for Token Amount Form and Stake Amount Form */
+
+/* Token Amount Form */
+.token-amount-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 36px;
+  background-color: #f9fafb; /* Light background for contrast */
+  border-radius: 12px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.token-input-label {
+  opacity: 0.9; /* Slightly less opaque for better readability */
+  font-size: 14px; /* Increased font size for better readability */
+  font-weight: 500; /* Slightly bolder for emphasis */
+  margin-bottom: 12px; /* Reduced margin for compact look */
+  color: #374151; /* Darker text color for better contrast */
+}
+
+.token-amount-form input {
+  border-style: none;
+  background-color: #ffffff; /* White background for clarity */
+  padding: 16px; /* Adjusted padding for better spacing */
+  width: 100%;
+  border-radius: 8px; /* Slightly rounded corners for input */
+  border: 1px solid #d1d5db; /* Light border color */
+  opacity: 0.9; /* Increased opacity for better visibility */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.token-amount-form input:hover {
+  opacity: 1; /* Full opacity on hover */
+  border-color: #a1a1a1; /* Darker border color on hover */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Light shadow on hover */
+}
+
+.token-amount-form Button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  font-size: 14px; /* Increased font size for readability */
+  color: #ffffff; /* White text color */
+  background-color: #6d28d9; /* Primary color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition effect */
+}
+
+.token-amount-form Button:hover {
+  background-color: #4c1d95; /* Darker shade on hover */
+  transform: scale(1.02); /* Slight scaling effect on hover */
+}
+
+/* Stake Amount Form */
+.stake-amount-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 36px;
+  background-color: #f9fafb; /* Light background for contrast */
+  border-radius: 12px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.stake-input-label {
+  opacity: 0.9; /* Slightly less opaque for better readability */
+  font-size: 14px; /* Increased font size for better readability */
+  font-weight: 500; /* Slightly bolder for emphasis */
+  margin-bottom: 12px; /* Reduced margin for compact look */
+  color: #374151; /* Darker text color for better contrast */
+}
+
+.stake-amount-form input {
+  border-style: none;
+  background-color: #ffffff; /* White background for clarity */
+  padding: 16px; /* Adjusted padding for better spacing */
+  width: 100%;
+  border-radius: 8px; /* Slightly rounded corners for input */
+  border: 1px solid #d1d5db; /* Light border color */
+  opacity: 0.9; /* Increased opacity for better visibility */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.stake-amount-form input:hover {
+  opacity: 1; /* Full opacity on hover */
+  border-color: #a1a1a1; /* Darker border color on hover */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Light shadow on hover */
+}
+
+.stake-amount-form Button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  font-size: 14px; /* Increased font size for readability */
+  color: #ffffff; /* White text color */
+  background-color: #6d28d9; /* Primary color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition effect */
+}
+
+.stake-amount-form Button:hover {
+  background-color: #4c1d95; /* Darker shade on hover */
+  transform: scale(1.02); /* Slight scaling effect on hover */
+}
